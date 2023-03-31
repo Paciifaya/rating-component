@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #141519;
+  font-family: 'Overpass', sans-serif;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.main {
+  background-color: #19202a;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.star-image {
+  width: 15px;
+  background-color: #252d37;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.para {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#para {
+  color: #959eac;
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.para-list {
+  display: flex;
+  gap: 30px;
+}
+
+.rating {
+  background-color: #252d37;
+  color: #959eac;
+  font-size: 12px;
+  padding: 15px;
+  width: 15px;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.rating:hover {
+  background-color: #959eac;
+  color: white;
+}
+
+.rating:active {
+  background-color: #fb7413;
+  color: white;
+  transition: ease-out 0.1s;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color: white;
+  background-color: #fb7413;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: #fb7413;
+  background-color: white;
+}
+
+.thank-you-container {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #19202a;
+  border-radius: 20px;
+  padding: 70px;
+}
+
+.rating-para {
+  background-color: #252d37;
+  padding: 0.5rem 2rem;
+  color: #fb7413;
+  border-radius: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+.paragraph {
+  color: #959eac;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.paragraph p {
+  margin: 0;
+  color: #959eac;
+  font-size: 13px;
+}
